@@ -1,0 +1,18 @@
+json web token (simple jwt)
+
+1.tải bộ thư viện và làm theo các bước tại getting started 
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+
+2. thêm phần cấu hình này vào REST_FRAMEWORK{}
+# chú ý cái này ông sơn nguyễn thêm vào 
+    'DEFAULT_PERMISSION_CLASSES':(
+        'rest_framework.permissions.IsAuthenticated',
+    )
+
+3.vào phần settings dưới getting started thêm phần code có sẵn vào file settings.py
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/settings.html
+
+4. tạo tài khoản superuser để có username, password
+5. làm theo phần usage trong getting started (nhớ thay username, password) để lấy token access
+ 
+6. ở phần header 1 bên là Authorization, 1 bên là token access
