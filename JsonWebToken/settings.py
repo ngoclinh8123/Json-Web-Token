@@ -134,7 +134,7 @@ REST_FRAMEWORK = {
     ),
     # chú ý cái này ông sơn nguyễn thêm vào 
     'DEFAULT_PERMISSION_CLASSES':(
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.IsAuthenticated', # chú ý chỗ này có dấu , để mt hiểu đây là tuple chứ không phải string 
     )
 }
 

@@ -16,3 +16,5 @@ https://django-rest-framework-simplejwt.readthedocs.io/en/latest/settings.html
 5. làm theo phần usage trong getting started (nhớ thay username, password) để lấy token access
  
 6. ở phần header 1 bên là Authorization, 1 bên là token access
+
+Trong trường hợp cần gọi hàm mà không cần xác thực -> ở file views.py có ví dụ 
